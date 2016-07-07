@@ -18,6 +18,7 @@
         <javac srcdir="${src}" destdir="${build}" source="1.8" target="1.8"/>
     </target>
 
+
     <target name="dist" depends="compile">
         <jar destfile="${dist}/antGenerics.jar">
             <fileset dir="${build}"/>
